@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(160, 157, 157);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: rgb(250, 85, 85);
+}
+
+.cabecalho-imagem {
+    width: 80px;
+    height: 80px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal {
+    display: flex;
+    margin-top: 48px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: rgb(75, 75, 75);
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 350;
+    font-size: 32px;
+    color: rgb(49, 48, 48);
+}
+
+.conteudo-principal-escrito-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(66, 66, 173);
+    width: 270px;
+    height: 30px;
+    border: black;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.conteudo-secundario-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rodape-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 115px;
+    margin: auto;
+}
